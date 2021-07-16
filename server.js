@@ -8,6 +8,8 @@ const peerServer = PeerServer({
 		key: fs.readFileSync(
 			"/etc/letsencrypt/live/radio.cenexxx.cl/privkey.pem"
 		),
-		cert: fs.readFileSync("/etc/letsencryp/live/radio.cenexxx.cl/cert.pem"),
+		cert: fs.readFileSync(
+			"/etc/letsencrypt/live/radio.cenexxx.cl/cert.pem"
+		),
 	},
 });
