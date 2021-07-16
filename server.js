@@ -14,3 +14,5 @@ const peerServer = PeerServer({
 		),
 	},
 });
+
+console.log(peerServer, "init");
